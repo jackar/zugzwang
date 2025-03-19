@@ -1,6 +1,5 @@
 'use client';
 
-import { useCallback, useRef, useEffect } from 'react';
 import { ChessGame } from './utils/pgnParser';
 import { GameCategory } from './games';
 

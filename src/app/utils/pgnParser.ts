@@ -10,8 +10,8 @@ declare global {
   }
 }
 
-export interface ChessGame {
-  id: number;
+export type ChessGame = {
+  id: string;
   title: string;
   players: {
     white: string;
@@ -24,9 +24,9 @@ export interface ChessGame {
     to: string;
   }>;
   pgn: string;
-  category: string;
-  result: string;
-}
+  category?: string;
+  result: 'white' | 'black' | 'draw';
+};
 
 export const parsePgnFile = (content: string, filename: string): ChessGame[] => {
   // Extract category from filename
@@ -46,15 +46,12 @@ export const parsePgnFile = (content: string, filename: string): ChessGame[] => 
       const lines = gameStr.trim().split('\n');
       const headerLines = [];
       const moveLines = [];
-      let inMoves = false;
 
       for (const line of lines) {
         if (line.trim() === '') continue;
         if (line.trim().startsWith('[')) {
           headerLines.push(line.trim());
-          inMoves = false;
         } else {
-          inMoves = true;
           moveLines.push(line.trim());
         }
       }
@@ -85,9 +82,7 @@ export const parsePgnFile = (content: string, filename: string): ChessGame[] => 
       
       // Try loading moves one at a time for debugging
       const moveTokens = movesText.split(/\s+/);
-      let currentPosition = new Chess();
       let moveString = '';
-      let currentMoveNumber = '';
 
       for (let i = 0; i < moveTokens.length; i++) {
         const token = moveTokens[i];
@@ -97,7 +92,6 @@ export const parsePgnFile = (content: string, filename: string): ChessGame[] => 
         
         // If it's a move number (e.g., "1.")
         if (token.match(/^\d+\./)) {
-          currentMoveNumber = token;
           moveString += token + ' ';
         } else {
           // Add the move with proper spacing
@@ -147,6 +141,19 @@ export const parsePgnFile = (content: string, filename: string): ChessGame[] => 
         to: move.to
       }));
 
+      // Add result parsing before returning the game
+      let result: 'white' | 'black' | 'draw' = 'draw';
+      const resultMatch = finalPgn.match(/\[Result "(.+)"\]/);
+      if (resultMatch) {
+        const resultString = resultMatch[1];
+        if (resultString === '1-0') {
+          result = 'white';
+        } else if (resultString === '0-1') {
+          result = 'black';
+        }
+        // For '1/2-1/2' or any other result, keep it as 'draw'
+      }
+
       const parsedGame: ChessGame = {
         id: index + 1,
         title: `${white} vs ${black}`,
@@ -159,7 +166,7 @@ export const parsePgnFile = (content: string, filename: string): ChessGame[] => 
         moves: parsedMoves,
         pgn: cleanPgn,
         category,
-        result: header['Result'] || '*'
+        result
       };
 
       console.log('Successfully parsed game:', parsedGame.title);

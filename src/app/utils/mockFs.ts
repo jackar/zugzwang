@@ -24,7 +24,7 @@ export function setupMockFs() {
         }
         return Promise.resolve([]);
       },
-      readFile: async (path: string, options: { encoding: string }) => {
+      readFile: async (path: string) => {
         if (path === '/app/games/Modern.pgn') {
           return Promise.resolve(modernPgn);
         }

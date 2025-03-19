@@ -9,7 +9,6 @@ import { ChessGame } from './utils/pgnParser';
 
 type BoardOrientation = 'white' | 'black';
 type Square = string;
-type Piece = string;
 
 export default function ChessTrainerPage() {
   const { 
@@ -23,8 +22,8 @@ export default function ChessTrainerPage() {
   const [game, setGame] = useState<Chess | null>(null);
   const [selectedGame, setSelectedGame] = useState<ChessGame | null>(null);
   const [moveIndex, setMoveIndex] = useState(-1);
-  const [mode, setMode] = useState<'watch' | 'practice'>('practice');
-  const [message, setMessage] = useState('Welcome! Select a game to begin.');
+  const [mode, setMode] = useState<'watch' | 'practice'>('watch');
+  const [message, setMessage] = useState('Welcome! Select a game to begin watching.');
   const [boardOrientation, setBoardOrientation] = useState<BoardOrientation>('white');
 
   const handleKeyDown = useCallback((event: KeyboardEvent) => {
@@ -67,7 +66,8 @@ export default function ChessTrainerPage() {
     const newGame = new Chess();
     setGame(newGame);
     setMoveIndex(-1);
-    setMessage(`Selected: ${selected.title}`);
+    setBoardOrientation(selected.result === 'black' ? 'black' : 'white');
+    setMessage(`Selected: ${selected.title}. Use arrow keys or Next Move button to watch the game.`);
   };
 
   const showNextMove = () => {
@@ -85,18 +85,25 @@ export default function ChessTrainerPage() {
     }
   };
 
-  const onDrop = (sourceSquare: Square, targetSquare: Square, piece: Piece): boolean => {
+  const onDrop = (sourceSquare: Square, targetSquare: Square): boolean => {
     if (!selectedGame || mode === 'watch') {
       setMessage('Please select a game and use Practice mode to make moves');
       return false;
     }
 
-    const expectedMove = selectedGame.moves[moveIndex];
+    // Get the next expected move
+    const nextMoveIndex = moveIndex + 1;
+    if (nextMoveIndex >= selectedGame.moves.length) {
+      setMessage('Game completed! Reset to try again.');
+      return false;
+    }
+
+    const expectedMove = selectedGame.moves[nextMoveIndex];
     
     if (sourceSquare === expectedMove.from && targetSquare === expectedMove.to) {
       if (game?.move({ from: sourceSquare, to: targetSquare })) {
         setGame(new Chess(game.fen()));
-        setMoveIndex((prev) => prev + 1);
+        setMoveIndex(nextMoveIndex);
         setMessage('Correct move! Well done!');
         return true;
       }
@@ -143,7 +150,7 @@ export default function ChessTrainerPage() {
             }}
             className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
           >
-            Switch to {mode === 'watch' ? 'Practice' : 'Watch'}
+            Switch to {mode === 'watch' ? 'Practice' : 'Watch'} Mode
           </button>
 
           {mode === 'watch' && (
@@ -166,7 +173,7 @@ export default function ChessTrainerPage() {
             onClick={() => setBoardOrientation(current => current === 'white' ? 'black' : 'white')}
             className="px-4 py-2 bg-purple-500 text-white rounded hover:bg-purple-600 transition-colors"
           >
-            Flip Board
+            View from {boardOrientation === 'white' ? 'Black\'s' : 'White\'s'} side
           </button>
         </div>
 
