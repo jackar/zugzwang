@@ -28,7 +28,6 @@ export default function ChessTrainerPage() {
   const [mode, setMode] = useState<'watch' | 'practice'>('watch');
   const [message, setMessage] = useState('Welcome! Select a game to begin watching.');
   const [boardOrientation, setBoardOrientation] = useState<BoardOrientation>('white');
-  const [isAnalyzing, setIsAnalyzing] = useState(false);
   const { 
     addCorrectMove, 
     recordAttempt, 
