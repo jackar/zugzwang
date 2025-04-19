@@ -11,7 +11,7 @@ declare global {
 }
 
 export type ChessGame = {
-  id: string;
+  id: number;
   title: string;
   players: {
     white: string;
@@ -29,6 +29,11 @@ export type ChessGame = {
 };
 
 export const parsePgnFile = (content: string, filename: string): ChessGame[] => {
+  if (!content || typeof content !== 'string') {
+    console.error('Invalid PGN content provided');
+    return [];
+  }
+
   // Extract category from filename
   const category = filename.replace('.pgn', '')
     .split(/[-_]/)
@@ -40,6 +45,11 @@ export const parsePgnFile = (content: string, filename: string): ChessGame[] => 
   console.log('Number of games found:', games.length);
   
   return games.map((gameStr, index) => {
+    if (!gameStr || gameStr.trim() === '') {
+      console.error('Empty game string found');
+      return null;
+    }
+
     const game = new Chess();
     try {
       // Clean up the PGN string

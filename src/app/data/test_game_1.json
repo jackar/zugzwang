@@ -1,0 +1,825 @@
+{
+  "gameId": "test_game_1",
+  "title": "Ding, Liren vs Gukesh D",
+  "players": {
+    "white": "Ding, Liren",
+    "black": "Gukesh D"
+  },
+  "moves": [
+    {
+      "moveNumber": 1,
+      "move": "Nf3",
+      "from": "g1",
+      "to": "f3",
+      "explanation": "White develops a knight to control central squares (d4 and e5). Tactically, it keeps options open for various pawn pushes. Positionally, it prepares quick castling and maintains flexibility.",
+      "position": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1"
+    },
+    {
+      "moveNumber": 2,
+      "move": "d5",
+      "from": "d7",
+      "to": "d5",
+      "explanation": "Black immediately challenges the center. Tactically, there is no direct drawback as White’s knight cannot easily exploit d5. Positionally, it claims space and opens lines for the bishop on c8.",
+      "position": "rnbqkbnr/ppp1pppp/8/3p4/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2"
+    },
+    {
+      "moveNumber": 3,
+      "move": "g3",
+      "from": "g2",
+      "to": "g3",
+      "explanation": "White prepares a fianchetto for the bishop, reinforcing control over the long diagonal. Tactically, this is a quiet move that does not create immediate threats. Positionally, it supports a solid setup that combines flexible central control with kingside safety.",
+      "position": "rnbqkbnr/ppp1pppp/8/3p4/8/5N2/PPPPPPP1/RNBQKB1R b KQkq - 0 2"
+    },
+    {
+      "moveNumber": 4,
+      "move": "c5",
+      "from": "c7",
+      "to": "c5",
+      "explanation": "Black immediately strikes at White’s center on d4 and gains queenside space. Tactically, it can lead to an isolated pawn structure if White later plays d4 at the right moment. Positionally, Black shows readiness for dynamic play in the center.",
+      "position": "rnbqkbnr/pp2pppp/8/2pp4/8/5N2/PPPPPPP1/RNBQKB1R w KQkq - 0 3"
+    },
+    {
+      "moveNumber": 5,
+      "move": "Bg2",
+      "from": "f1",
+      "to": "g2",
+      "explanation": "White completes the fianchetto, placing the bishop on the long diagonal. Tactically, the bishop can become quite powerful if the center opens. Positionally, this is a main idea of the setup, exerting pressure on d5 and e4 squares.",
+      "position": "rnbqkbnr/pp2pppp/8/2pp4/8/5N2/PPPPPPPP/RNBQK2R b KQkq - 1 3"
+    },
+    {
+      "moveNumber": 6,
+      "move": "Nc6",
+      "from": "b8",
+      "to": "c6",
+      "explanation": "Black develops another piece, contesting the d4-square. Tactically, Black keeps an eye on e5 and might be ready to meet d4 with an immediate response in the center. Positionally, it follows sound principles of development and establishes more central influence.",
+      "position": "r1bqkbnr/pp2pppp/2n5/2pp4/8/5N2/PPPPPPBP/RNBQK2R w KQkq - 2 4"
+    },
+    {
+      "moveNumber": 7,
+      "move": "d4",
+      "from": "d2",
+      "to": "d4",
+      "explanation": "White challenges the center directly. Tactically, it opens lines for White’s pieces and potentially leads to trades in the center. Positionally, White fights for space and frees the c1-bishop’s diagonal.",
+      "position": "r1bqkbnr/pp2pppp/2n5/2pp4/3P4/5N2/PPPPPPBP/RNBQK2R b KQkq - 0 4"
+    },
+    {
+      "moveNumber": 8,
+      "move": "e6",
+      "from": "e7",
+      "to": "e6",
+      "explanation": "Black shores up the d5-pawn and prepares to develop the light-squared bishop. Tactically, ...e6 also prevents any immediate dxc5 ideas from White that might be annoying. Positionally, it solidifies the center but temporarily blocks the c8-bishop.",
+      "position": "r1bqkbnr/pp3ppp/2n1p3/2pp4/3P4/5N2/PPPPPPBP/RNBQK2R w KQkq - 0 5"
+    },
+    {
+      "moveNumber": 9,
+      "move": "O-O",
+      "from": "e1",
+      "to": "g1",
+      "explanation": "White castles to safety and connects the rooks. Tactically, there are no immediate threats to address, so White secures the king before further central or queenside action. Positionally, it’s a standard developing move following the principle of king safety.",
+      "position": "r1bqkbnr/pp3ppp/2n1p3/2pp4/3P4/5N2/PPPPPPBP/RNBQ1RK1 b kq - 1 5"
+    },
+    {
+      "moveNumber": 10,
+      "move": "cxd4",
+      "from": "c5",
+      "to": "d4",
+      "explanation": "Black captures on d4, challenging White's center. Tactically, it forces White to recapture and can pull a piece into a spot where Black may develop with tempo. Positionally, it clarifies the tension but gives White a chance to maintain pressure on the center via piece recapture.",
+      "position": "r1bqkbnr/pp3ppp/2n1p3/3p4/3p4/5N2/PPPPPPBP/RNBQ1RK1 w kq - 0 6"
+    },
+    {
+      "moveNumber": 11,
+      "move": "Nxd4",
+      "from": "f3",
+      "to": "d4",
+      "explanation": "White recaptures with the knight, keeping central influence. Tactically, this challenges Black’s knight on c6 and opens lines for the bishop on g2. Positionally, it maintains a foothold in the center and keeps active piece play.",
+      "position": "r1bqkbnr/pp3ppp/2n1p3/3p4/3N4/8/PPPPPPBP/RNBQ1RK1 b kq - 0 6"
+    },
+    {
+      "moveNumber": 12,
+      "move": "Nge7",
+      "from": "g8",
+      "to": "e7",
+      "explanation": "Black develops the other knight, possibly aiming for the c6 or f5 squares after exchanges. Tactically, Black avoids immediately trading on d4 and keeps flexible options. Positionally, it supports central tension while preparing to complete development (e.g., ...O-O).",
+      "position": "r1bqkb1r/pp3ppp/2n1p3/3p4/3N4/8/PPPPPPBP/RNBQ1RK1 w kq - 1 7"
+    },
+    {
+      "moveNumber": 13,
+      "move": "c4",
+      "from": "c2",
+      "to": "c4",
+      "explanation": "White bolsters control over the d5-square and challenges Black’s center. Tactically, White might later open lines along the c-file. Positionally, this supports the knight on d4 and can create space on the queenside.",
+      "position": "r1bqkb1r/pp3ppp/2n1p3/3p4/2PN4/8/PPPPPPBP/RNBQ1RK1 b kq - 0 7"
+    },
+    {
+      "moveNumber": 14,
+      "move": "Nxd4",
+      "from": "c6",
+      "to": "d4",
+      "explanation": "Black decides to exchange knights, eliminating White’s centralized piece. Tactically, this also opens the c-file, which can become a battleground. Positionally, it simplifies the center and paves the way for bishop development.",
+      "position": "r1bqkb1r/pp3ppp/4p3/3p4/2P5/8/PPPPPPBP/RNBQ1RK1 w kq - 0 8"
+    },
+    {
+      "moveNumber": 15,
+      "move": "Qxd4",
+      "from": "d1",
+      "to": "d4",
+      "explanation": "White recaptures with the queen, placing it actively in the center. Tactically, White must be cautious of tempo-gaining moves by Black’s minor pieces. Positionally, the queen exerts central influence but can become a target if not handled carefully.",
+      "position": "r1bqkb1r/pp3ppp/4p3/3p4/2PQ4/8/PPPPPPBP/RNB2RK1 b kq - 1 8"
+    },
+    {
+      "moveNumber": 16,
+      "move": "Nc6",
+      "from": "e7",
+      "to": "c6",
+      "explanation": "Black chases the White queen and develops a piece again to a central square. Tactically, this gain of tempo forces White to make a decision where to place the queen. Positionally, it continues normal development and challenges White’s center.",
+      "position": "r1bqkb1r/pp3ppp/2n1p3/3p4/2PQ4/8/PPPPPPBP/RNB2RK1 w kq - 2 9"
+    },
+    {
+      "moveNumber": 17,
+      "move": "Qd1",
+      "from": "d4",
+      "to": "d1",
+      "explanation": "White retreats, avoiding further harassment but conceding time. Tactically, no immediate threats are created, but White keeps the queen safe. Positionally, White aims for a solid formation without queen exposure.",
+      "position": "r1bqkb1r/pp3ppp/2n1p3/3p4/8/8/PPPPPPBP/RNBQ1RK1 b kq - 3 9"
+    },
+    {
+      "moveNumber": 18,
+      "move": "d4",
+      "from": "d5",
+      "to": "d4",
+      "explanation": "Black seizes space by pushing the pawn to d4. Tactically, this gains queenside space and dislodges the bishop or knight if they come to c3. Positionally, Black grabs central territory and can look to expand further.",
+      "position": "r1bqkb1r/pp3ppp/2n1p3/8/3p4/8/PPPPPPBP/RNBQ1RK1 w kq - 0 10"
+    },
+    {
+      "moveNumber": 19,
+      "move": "e3",
+      "from": "e2",
+      "to": "e3",
+      "explanation": "White prepares to undermine Black’s advanced pawn on d4. Tactically, it sets up possible recaptures with a piece or pawn if dxe3 comes. Positionally, White keeps a flexible structure while challenging Black’s center.",
+      "position": "r1bqkb1r/pp3ppp/2n1p3/8/3p4/4P3/PPPPPPBP/RNBQ1RK1 b kq - 0 10"
+    },
+    {
+      "moveNumber": 20,
+      "move": "Bc5",
+      "from": "f8",
+      "to": "c5",
+      "explanation": "Black develops the bishop to an active diagonal, eyeing White’s king position. Tactically, this bishop can become powerful if White captures on d4 and lines open. Positionally, Black gains rapid development and potential attacking chances.",
+      "position": "r1bqkb1r/pp3ppp/2n1p3/2b5/3p4/4P3/PPPPPPBP/RNBQ1RK1 w kq - 1 11"
+    },
+    {
+      "moveNumber": 21,
+      "move": "O-O",
+      "from": "e1",
+      "to": "g1",
+      "explanation": "White castles for safety and prepares to meet Black’s central push calmly. Tactically, there is no immediate threat to the White king. Positionally, White ensures the king is safe before opening lines in the center.",
+      "position": "r1bqkb1r/pp3ppp/2n1p3/2b5/3p4/4P3/PPPPPPBP/RNBQ1RK1 b kq - 2 11"
+    },
+    {
+      "moveNumber": 22,
+      "move": "cxd4",
+      "from": "c5",
+      "to": "d4",
+      "explanation": "Black captures on d4, simplifying the center. Tactically, it removes tension and can create open lines for Black’s queen and bishop. Positionally, Black ensures a strong pawn on e6 and a clearer path for development.",
+      "position": "r1bqkb1r/pp3ppp/2n1p3/8/3p4/4P3/PPPPPPBP/RNBQ1RK1 w kq - 0 12"
+    },
+    {
+      "moveNumber": 23,
+      "move": "Nxd4",
+      "from": "b1",
+      "to": "d4",
+      "explanation": "White recaptures with the knight, reclaiming central footing. Tactically, the knight is well placed but could be subject to future pins or attacks. Positionally, White keeps pieces active and eyes future central or queenside operations.",
+      "position": "r1bqkb1r/pp3ppp/2n1p3/8/3N4/4P3/PPPPPPBP/RNBQ1RK1 b kq - 1 12"
+    },
+    {
+      "moveNumber": 24,
+      "move": "Nge7",
+      "from": "g8",
+      "to": "e7",
+      "explanation": "Black develops the knight with the intention of supporting c6 or f5 later. Tactically, Black may also consider ...e5 at some point to strike at White’s knight. Positionally, completing development remains a core goal.",
+      "position": "r1bqkb1r/pp3ppp/2n1p3/8/3N4/4P3/PPPPPPBP/RNBQ1RK1 w kq - 2 13"
+    },
+    {
+      "moveNumber": 25,
+      "move": "c4",
+      "from": "c2",
+      "to": "c4",
+      "explanation": "White buttresses the knight on d4 and gains queenside space. Tactically, White threatens to push c5 in some lines, undermining Black’s structure. Positionally, White consolidates a strong center and opens a route for the queen’s rook.",
+      "position": "r1bqkb1r/pp3ppp/2n1p3/8/3N4/4P3/PPP1PPBP/RNBQ1RK1 b kq - 0 13"
+    },
+    {
+      "moveNumber": 26,
+      "move": "Nxd4",
+      "from": "c6",
+      "to": "d4",
+      "explanation": "Black challenges White’s knight again, aiming to remove it or induce structural changes. Tactically, exchanges simplify the position and reduce White’s attacking prospects. Positionally, it paves the way for the bishop pair or e5 push.",
+      "position": "r1bqkb1r/pp3ppp/4p3/8/2PN4/4P3/PPP1PPBP/RNBQ1RK1 w kq - 0 14"
+    },
+    {
+      "moveNumber": 27,
+      "move": "Qxd4",
+      "from": "d1",
+      "to": "d4",
+      "explanation": "White takes back with the queen, keeping an eye on critical central squares. Tactically, the queen could become active but must avoid tempo gains by Black’s minor pieces. Positionally, White still holds a fair share of central control.",
+      "position": "r1bqkb1r/pp3ppp/4p3/8/2PQ4/4P3/PPP1PPBP/RNB2RK1 b kq - 1 14"
+    },
+    {
+      "moveNumber": 28,
+      "move": "O-O",
+      "from": "e8",
+      "to": "g8",
+      "explanation": "Black finally castles, safeguarding the king. Tactically, Black evacuates the king from the center where White’s queen had potential to cause problems. Positionally, it connects the rooks and frees them for central or queenside action.",
+      "position": "r1bq1rk1/pp3ppp/4p3/8/2PQ4/4P3/PPP1PPBP/RNB2RK1 w - - 2 15"
+    },
+    {
+      "moveNumber": 29,
+      "move": "Nb5",
+      "from": "d4",
+      "to": "b5",
+      "explanation": "White’s knight jumps forward, threatening to enter c7. Tactically, it can fork key pieces if c7 is weak. Positionally, it forces Black to address the potential knight invasion.",
+      "position": "r1bq1rk1/pp3ppp/4p3/1N6/2PQ4/4P3/PPP1PPBP/RNB2RK1 b - - 3 15"
+    },
+    {
+      "moveNumber": 30,
+      "move": "Bb6",
+      "from": "c5",
+      "to": "b6",
+      "explanation": "Black retreats the bishop to maintain pressure on the diagonal and cover potential tactics on c7. Tactically, it removes the piece from possible forks. Positionally, Black keeps a comfortable bishop and challenges White’s knight on b5 indirectly.",
+      "position": "r1bq1rk1/pp3ppp/1b2p3/1N6/2PQ4/4P3/PPP1PPBP/RNB2RK1 w - - 4 16"
+    },
+    {
+      "moveNumber": 31,
+      "move": "b3",
+      "from": "b2",
+      "to": "b3",
+      "explanation": "White solidifies the c4-pawn and prepares a potential bishop development to b2. Tactically, it prevents Black’s pieces from penetrating c4. Positionally, it stabilizes White’s queenside structure for a future expansion or piece maneuvering.",
+      "position": "r1bq1rk1/pp3ppp/1b2p3/1N6/2PQ4/1P2P3/P1P1PPBP/RNB2RK1 b - - 0 16"
+    },
+    {
+      "moveNumber": 32,
+      "move": "a6",
+      "from": "a7",
+      "to": "a6",
+      "explanation": "Black drives the knight away from b5. Tactically, it removes the immediate threat of Nb5-c7 forks. Positionally, it gains a slight queenside space advantage and prepares possible ...b5 push.",
+      "position": "r1bq1rk1/pp3ppp/1b2p3/pN6/2PQ4/1P2P3/P1P1PPBP/RNB2RK1 w - - 1 17"
+    },
+    {
+      "moveNumber": 33,
+      "move": "Nc3",
+      "from": "b5",
+      "to": "c3",
+      "explanation": "White retreats the knight to maintain control over central squares. Tactically, it avoids exchanges that would simplify too quickly. Positionally, White keeps dynamic potential for future c4-c5 or e3-e4 pushes.",
+      "position": "r1bq1rk1/pp3ppp/1b2p3/p7/2PQ4/1PN1P3/P1P1PPBP/RNB2RK1 b - - 2 17"
+    },
+    {
+      "moveNumber": 34,
+      "move": "Bd4",
+      "from": "b6",
+      "to": "d4",
+      "explanation": "Black’s bishop takes an active post in the center, eyeing e3 and c3. Tactically, it threatens to remove an important defender if White captures. Positionally, it exerts central pressure and could lead to doubled pawns if White exchanges.",
+      "position": "r1bq1rk1/pp3ppp/4p3/p7/2Pb4/1PN1P3/P1P1PPBP/RNB2RK1 w - - 3 18"
+    },
+    {
+      "moveNumber": 35,
+      "move": "e5",
+      "from": "e3",
+      "to": "e5",
+      "explanation": "White pushes the e-pawn to challenge Black’s bishop and gain space. Tactically, this forces Black to make a decision with the bishop or risk losing a piece. Positionally, it grabs kingside space and can support an f4 push later.",
+      "position": "r1bq1rk1/pp3ppp/4p3/p4P2/2Pb4/1PN5/P1P1PPBP/RNB2RK1 b - - 0 18"
+    },
+    {
+      "moveNumber": 36,
+      "move": "b5",
+      "from": "b7",
+      "to": "b5",
+      "explanation": "Black counters on the queenside, securing space and challenging White’s c4-pawn. Tactically, it distracts White from the central action just created by e5. Positionally, Black opens lines on the queenside and might consider ...b4 to chase the knight from c3.",
+      "position": "r1bq1rk1/p4ppp/4p3/pP3P2/2Pb4/1PN5/P1P1PPBP/RNB2RK1 w - - 0 19"
+    },
+    {
+      "moveNumber": 37,
+      "move": "cxb5",
+      "from": "c4",
+      "to": "b5",
+      "explanation": "White captures to undermine Black’s pawn push. Tactically, it prevents Black from pushing ...b4 to dislodge the knight. Positionally, it helps White maintain control of critical squares and opens the c-file.",
+      "position": "r1bq1rk1/p4ppp/4p3/pP3P2/3b4/1PN5/P1P1PPBP/RNB2RK1 b - - 0 19"
+    },
+    {
+      "moveNumber": 38,
+      "move": "axb5",
+      "from": "a6",
+      "to": "b5",
+      "explanation": "Black recaptures, keeping an open a-file and some queenside prospects. Tactically, no immediate threats arise, but lines begin to open. Positionally, Black can seek pressure along the a-file or the b-file down the line.",
+      "position": "r1bq1rk1/p4ppp/4p3/1p3P2/3b4/1PN5/P1P1PPBP/RNB2RK1 w - - 0 20"
+    },
+    {
+      "moveNumber": 39,
+      "move": "Nf4",
+      "from": "c3",
+      "to": "f4",
+      "explanation": "White centralizes the knight and targets d5, e6, and possibly h5 squares. Tactically, it eyes Black’s e6-pawn or potential forks. Positionally, it sets up a strong knight that can combine with f-pawn pushes for a kingside initiative.",
+      "position": "r1bq1rk1/p4ppp/4p3/1p3P2/3b1N2/1P6/P1P1PPBP/RNB2RK1 b - - 1 20"
+    },
+    {
+      "moveNumber": 40,
+      "move": "exf4",
+      "from": "e6",
+      "to": "f4",
+      "explanation": "Black decides to trade off White’s active knight. Tactically, removing the knight eases some pressure on e6 and d5. Positionally, Black simplifies the situation and may open lines for the rook on e8.",
+      "position": "r1bq1rk1/p4ppp/8/1p3P2/3b1n2/1P6/P1P1PPBP/RNB2RK1 w - - 0 21"
+    },
+    {
+      "moveNumber": 41,
+      "move": "Bxc6",
+      "from": "g2",
+      "to": "c6",
+      "explanation": "White captures on c6 to remove Black’s potential bishop pair and disrupt pawn structure. Tactically, it forces Black to recapture and possibly leaves weaknesses. Positionally, White aims to reduce Black’s dynamic chances.",
+      "position": "r1bq1rk1/p4ppp/2B5/1p3P2/5n2/1P6/P1P1PP1P/RNB2RK1 b - - 0 21"
+    },
+    {
+      "moveNumber": 42,
+      "move": "Bxb2",
+      "from": "d4",
+      "to": "b2",
+      "explanation": "Black grabs material on b2, aiming to disrupt White’s pawn structure. Tactically, it also threatens further infiltration if White is careless. Positionally, Black hopes to gain a pawn or at least cause White to lose time recapturing.",
+      "position": "r1bq1rk1/p4ppp/2B5/1p3P2/5n2/1P6/PbP1PP1P/RNB2RK1 w - - 0 22"
+    },
+    {
+      "moveNumber": 43,
+      "move": "Qxb2",
+      "from": "d1",
+      "to": "b2",
+      "explanation": "White recaptures safely, preventing Black from remaining active on the queenside. Tactically, it neutralizes any immediate threats. Positionally, White keeps material balanced and maintains a strong bishop on c6.",
+      "position": "r1bq1rk1/p4ppp/2B5/1p3P2/5n2/1P6/PQP1PP1P/RNB2RK1 b - - 0 22"
+    },
+    {
+      "moveNumber": 44,
+      "move": "Rb8",
+      "from": "a8",
+      "to": "b8",
+      "explanation": "Black lines the rook against White’s queen, eyeing potential tactics on the b-file. Tactically, it threatens ...Nd3 forks or other discovered attacks. Positionally, it places the rook on an open file aiming at White’s queen and b3-pawn.",
+      "position": "1rbq1rk1/p4ppp/2B5/1p3P2/5n2/1P6/PQP1PP1P/RNB2RK1 w - - 1 23"
+    },
+    {
+      "moveNumber": 45,
+      "move": "Rfd1",
+      "from": "f1",
+      "to": "d1",
+      "explanation": "White centralizes the rook, supporting the d-file and indirectly defending critical points. Tactically, it prepares to move the queen away without losing the d-file. Positionally, White coordinates pieces for potential central or kingside pressure.",
+      "position": "1rbq1rk1/p4ppp/2B5/1p3P2/5n2/1P6/PQP1PP1P/RNB1R1K1 b - - 2 23"
+    },
+    {
+      "moveNumber": 46,
+      "move": "Qb6",
+      "from": "d8",
+      "to": "b6",
+      "explanation": "Black moves the queen to b6, threatening to trade or invade on b3. Tactically, it eyes potential forks or discovered attacks if White’s queen vacates b2. Positionally, Black intensifies pressure along the b-file.",
+      "position": "1r3rk1/p4ppp/1qB5/1p3P2/5n2/1P6/PQP1PP1P/RNB1R1K1 w - - 3 24"
+    },
+    {
+      "moveNumber": 47,
+      "move": "Bf3",
+      "from": "c6",
+      "to": "f3",
+      "explanation": "White retreats the bishop to preserve it and help defend along key diagonals. Tactically, it also removes the bishop from being captured or harassed on c6. Positionally, White keeps the bishop alive for potential kingside pressure.",
+      "position": "1r3rk1/p4ppp/1q6/1p3P2/5n2/1P3B2/PQP1PP1P/RNB1R1K1 b - - 4 24"
+    },
+    {
+      "moveNumber": 48,
+      "move": "fxg3",
+      "from": "f4",
+      "to": "g3",
+      "explanation": "Black decides to open lines on the kingside by capturing on g3. Tactically, it may expose White’s king if lines continue to open. Positionally, it changes the pawn structure around White’s king and could give Black counterplay.",
+      "position": "1r3rk1/p4ppp/1q6/1p3P2/8/1P3B1p/PQP1PP1P/RNB1R1K1 w - - 0 25"
+    },
+    {
+      "moveNumber": 49,
+      "move": "hxg3",
+      "from": "h2",
+      "to": "g3",
+      "explanation": "White recaptures, preventing Black’s pawn from remaining on g3. Tactically, it avoids losing a piece and opens the h-file possibilities. Positionally, it keeps the king somewhat aired out but not overly exposed.",
+      "position": "1r3rk1/p4ppp/1q6/1p3P2/8/1P3B1P/PQP1PP2/RNB1R1K1 b - - 0 25"
+    },
+    {
+      "moveNumber": 50,
+      "move": "b4",
+      "from": "b5",
+      "to": "b4",
+      "explanation": "Black strikes at White’s knight and tries to weaken White’s queenside structure. Tactically, it can deflect defenders from key squares or create passed pawns. Positionally, it continues Black’s queenside agenda to undermine White’s setup.",
+      "position": "1r3rk1/p4ppp/1q6/1p3P2/1p6/1P3B1P/PQP1PP2/RNB1R1K1 w - - 1 26"
+    },
+    {
+      "moveNumber": 51,
+      "move": "a4",
+      "from": "a2",
+      "to": "a4",
+      "explanation": "White counters by pushing the a-pawn, ready to exchange and open the a-file. Tactically, it can create lively play if lines open toward Black’s king. Positionally, White seeks activity and refuses to be passive on the queenside.",
+      "position": "1r3rk1/p4ppp/1q6/1p3P2/pp6/1P3B1P/PQP1PP2/RNB1R1K1 b - - 0 26"
+    },
+    {
+      "moveNumber": 52,
+      "move": "Qxb4",
+      "from": "b6",
+      "to": "b4",
+      "explanation": "Black captures on b4 to remove White’s advanced pawn. Tactically, it also threatens penetration along the b-file. Positionally, Black hopes to isolate White’s queenside pawns further.",
+      "position": "1r3rk1/p4ppp/8/1p3P2/pp6/1P3B1P/PQP1PP2/RNB1R1K1 w - - 0 27"
+    },
+    {
+      "moveNumber": 53,
+      "move": "Qxb4",
+      "from": "b2",
+      "to": "b4",
+      "explanation": "White exchanges queens to reduce Black’s attacking prospects. Tactically, it simplifies the board and lessens immediate threats to White’s king. Positionally, White aims for an endgame where the bishop might outmaneuver Black’s pieces.",
+      "position": "1r3rk1/p4ppp/8/1p3P2/1Q6/1P3B1P/P1P1PP2/RNB1R1K1 b - - 0 27"
+    },
+    {
+      "moveNumber": 54,
+      "move": "Rxb4",
+      "from": "b8",
+      "to": "b4",
+      "explanation": "Black recaptures, seizing the b-file with the rook. Tactically, it keeps pressure on the f4 and f2 squares if the rook swings. Positionally, Black eyes infiltration along the second or first rank.",
+      "position": "5rk1/p4ppp/8/1p3P2/1r6/1P3B1P/P1P1PP2/RNB1R1K1 w - - 0 28"
+    },
+    {
+      "moveNumber": 55,
+      "move": "Ra8",
+      "from": "a1",
+      "to": "a8",
+      "explanation": "White aims for counterplay by placing the rook on an open file. Tactically, it can lead to threats along the back rank or infiltration behind Black's lines. Positionally, White hopes to generate enough activity to counterbalance Black’s rook on b4.",
+      "position": "5rk1/p4ppp/R7/1p3P2/1r6/1P3B1P/P1P1PP2/1NB1R1K1 b - - 1 28"
+    },
+    {
+      "moveNumber": 56,
+      "move": "Rxa8",
+      "from": "r4",
+      "to": "a8",
+      "explanation": "Black opts to swap the rooks on a8. Tactically, this removes White’s active rook. Positionally, it moves the game closer to an endgame that favors Black’s better pawn structure.",
+      "position": "r5k1/p4ppp/8/1p3P2/8/1P3B1P/P1P1PP2/1NB1R1K1 w - - 0 29"
+    },
+    {
+      "moveNumber": 57,
+      "move": "Bxa8",
+      "from": "f3",
+      "to": "a8",
+      "explanation": "White recaptures with the bishop, momentarily placing it on the rim. Tactically, White keeps material balance but the bishop is less active now. Positionally, White’s bishop may return quickly via diagonal routes.",
+      "position": "r5k1/p4ppp/8/1p3P2/8/1P5P/P1P1PP2/1NB1R1K1 b - - 0 29"
+    },
+    {
+      "moveNumber": 58,
+      "move": "g5",
+      "from": "g7",
+      "to": "g5",
+      "explanation": "Black pushes the kingside pawn to undermine White’s f4-pawn (or future f4 square) and to gain space. Tactically, it may open lines near White’s king if White’s pawns become weakened. Positionally, Black hopes to create passers and secure a winning endgame.",
+      "position": "r5k1/p4p1p/8/1p3Pp1/8/1P5P/P1P1PP2/1NB1R1K1 w - - 0 30"
+    },
+    {
+      "moveNumber": 59,
+      "move": "Bd5",
+      "from": "a8",
+      "to": "d5",
+      "explanation": "White centralizes the bishop, hoping to counter Black’s kingside expansion. Tactically, the bishop can keep an eye on critical squares if pawns open. Positionally, it re-enters the game in a more active post.",
+      "position": "r5k1/p4p1p/8/1pB2Pp1/8/1P5P/P1P1PP2/1NB1R1K1 b - - 1 30"
+    },
+    {
+      "moveNumber": 60,
+      "move": "Bf5",
+      "from": "c8",
+      "to": "f5",
+      "explanation": "Black develops the bishop actively, pressuring White’s knight or potential e4 push. Tactically, it may lead to quick threats if White’s center cracks. Positionally, Black sets up a robust piece placement for the kingside push.",
+      "position": "r5k1/p4p1p/8/1pB2Ppb/8/1P5P/P1P1PP2/1NB1R1K1 w - - 2 31"
+    },
+    {
+      "moveNumber": 61,
+      "move": "Rc1",
+      "from": "e1",
+      "to": "c1",
+      "explanation": "White activates the rook on the semi-open c-file. Tactically, it looks for infiltration if Black’s pawns move. Positionally, White braces for an endgame, hoping the rook can become more active than Black’s pieces.",
+      "position": "r5k1/p4p1p/8/1pB2Ppb/8/1P5P/P1P1PP2/1NB3K1 b - - 3 31"
+    },
+    {
+      "moveNumber": 62,
+      "move": "Kg7",
+      "from": "g8",
+      "to": "g7",
+      "explanation": "Black brings the king closer, a typical endgame strategy. Tactically, no threats exist immediately but it removes the king from potential back-rank issues. Positionally, a more central king can support pawn pushes and coordinate with rooks.",
+      "position": "r7/p4pkp/8/1pB2Ppb/8/1P5P/P1P1PP2/1NB3K1 w - - 4 32"
+    },
+    {
+      "moveNumber": 63,
+      "move": "Rc7",
+      "from": "c1",
+      "to": "c7",
+      "explanation": "White uses the rook to penetrate the seventh rank, eyeing potential pawns or infiltration. Tactically, it can create threats against f7 or e7. Positionally, White hopes to gain counterplay as Black’s king moves forward.",
+      "position": "r7/p1R2pkp/8/1pB2Ppb/8/1P5P/P1P1PP2/1NB3K1 b - - 5 32"
+    },
+    {
+      "moveNumber": 64,
+      "move": "Bg6",
+      "from": "f5",
+      "to": "g6",
+      "explanation": "Black repositions the bishop to g6, reinforcing control over the kingside dark squares. Tactically, it deters White from pushing f6. Positionally, it solidifies Black’s formation, preventing White’s rook from harassing f7 easily.",
+      "position": "r7/p1R2pkp/6b1/1pB2Pp1/8/1P5P/P1P1PP2/1NB3K1 w - - 6 33"
+    },
+    {
+      "moveNumber": 65,
+      "move": "Rc4",
+      "from": "c7",
+      "to": "c4",
+      "explanation": "White shifts the rook to c4 to both guard the f4-pawn indirectly and threaten infiltration. Tactically, it might swing over to h4 if Black’s king moves carelessly. Positionally, White remains flexible, hoping to find active chances.",
+      "position": "r7/p1R2pkp/6b1/1pB2Pp1/2R5/1P5P/P1P1PP2/1NB3K1 b - - 7 33"
+    },
+    {
+      "moveNumber": 66,
+      "move": "Rb1+",
+      "from": "a8",
+      "to": "b1+",
+      "explanation": "Black delivers a check to drive White’s king away or force a block. Tactically, it gains a tempo and might provoke weaknesses. Positionally, it also cuts off White’s king from easy escape squares.",
+      "position": "r7/p1R2pkp/6b1/1pB2Pp1/2R5/1P5P/P1P1PP2/1NB3K1 w - - 8 34"
+    },
+    {
+      "moveNumber": 67,
+      "move": "Kg2",
+      "from": "g1",
+      "to": "g2",
+      "explanation": "White steps out of check, keeping the king on a relatively safe square. Tactically, it avoids any back-rank mates or forks. Positionally, the king may assist in holding the f-pawns if needed.",
+      "position": "r7/p1R2pkp/6b1/1pB2Pp1/2R5/1P5P/P1P1PPK1/1NB3r1 b - - 9 34"
+    },
+    {
+      "moveNumber": 68,
+      "move": "Re1",
+      "from": "g1",
+      "to": "e1",
+      "explanation": "Black shifts the rook to e1, eyeing e2 or e4. Tactically, it can create threats against White’s second rank. Positionally, it intensifies the pressure in an endgame scenario where every tempo matters.",
+      "position": "r7/p1R2pkp/6b1/1pB2Pp1/2R5/1P5P/P1P1PPK1/1NB3r1 w - - 10 35"
+    },
+    {
+      "moveNumber": 69,
+      "move": "Rb4",
+      "from": "c4",
+      "to": "b4",
+      "explanation": "White repositions the rook to challenge Black’s b5 pawn or to prepare infiltration along the fourth rank. Tactically, it might also swing laterally to attack Black’s king. Positionally, White tries to seize active counterplay despite being under pressure.",
+      "position": "r7/p1R2pkp/6b1/1pB2Pp1/1R6/1P5P/P1P1PPK1/1NB3r1 b - - 11 35"
+    },
+    {
+      "moveNumber": 70,
+      "move": "Bf7",
+      "from": "g6",
+      "to": "f7",
+      "explanation": "Black brings the bishop back to f7, guarding critical squares and possibly preparing ...Bd5. Tactically, it covers the g8 escape square and stabilizes the position. Positionally, Black aims to push the kingside pawns with bishop support.",
+      "position": "r7/p1R2pkp/8/1pB2Pp1/1R6/1P5P/P1P1PPK1/1NB3r1 w - - 12 36"
+    },
+    {
+      "moveNumber": 71,
+      "move": "Kf2",
+      "from": "g2",
+      "to": "f2",
+      "explanation": "White centralizes the king further to defend key squares. Tactically, it helps guard the e2 square if the black rook penetrates. Positionally, White readies the king to support pawns in a likely endgame.",
+      "position": "r7/p1R2pkb/8/1pB2Pp1/1R6/1P5P/P1P1P1K1/1NB3r1 b - - 13 36"
+    },
+    {
+      "moveNumber": 72,
+      "move": "Rd2+",
+      "from": "e1",
+      "to": "d2+",
+      "explanation": "Black checks the king on the second rank. Tactically, it forces White’s king to move again or block awkwardly. Positionally, Black tries to keep White’s king distracted and out of the critical central squares.",
+      "position": "r7/p1R2pkb/8/1pB2Pp1/1R6/1P5P/P1P1P1K1/1NB3r1 w - - 14 37"
+    },
+    {
+      "moveNumber": 73,
+      "move": "Kg1",
+      "from": "f2",
+      "to": "g1",
+      "explanation": "White returns the king to g1 to avoid checks, though limited squares remain. Tactically, there was no safe alternative that improved the position. Positionally, White remains tied down while Black’s rook stays active.",
+      "position": "r7/p1R2pkb/8/1pB2Pp1/1R6/1P5P/P1P1P1K1/1NB3r1 b - - 15 37"
+    },
+    {
+      "moveNumber": 74,
+      "move": "Kf6",
+      "from": "g7",
+      "to": "f6",
+      "explanation": "Black’s king advances, ready to aid in a potential kingside breakthrough. Tactically, it also vacates g7 if the rook wants to pivot around. Positionally, a more active king is a major asset in the endgame.",
+      "position": "r7/p1R3kb/5k2/1pB2Pp1/1R6/1P5P/P1P1P3/1NB3rK w - - 16 38"
+    },
+    {
+      "moveNumber": 75,
+      "move": "Rb6+",
+      "from": "b4",
+      "to": "b6+",
+      "explanation": "White checks the Black king, attempting to disrupt its advance. Tactically, it gains a tempo and may force Black’s king to choose a less ideal square. Positionally, White seeks to create annoyance and possibly perpetual check ideas.",
+      "position": "r7/p1R3kb/1R3k2/1pB2Pp1/8/1P5P/P1P1P3/1NB3rK b - - 17 38"
+    },
+    {
+      "moveNumber": 76,
+      "move": "Kg5",
+      "from": "f6",
+      "to": "g5",
+      "explanation": "Black’s king steps forward aggressively, indicating a desire to push White’s pawns. Tactically, it must avoid walking into forks or checks. Positionally, it tries to overrun White’s f- and g-pawns.",
+      "position": "r7/p1R3kb/1R6/1pB2Ppk/8/1P5P/P1P1P3/1NB3rK w - - 18 39"
+    },
+    {
+      "moveNumber": 77,
+      "move": "Bf7",
+      "from": "c5",
+      "to": "f7",
+      "explanation": "White aims to control squares around Black’s king and hamper g4. Tactically, the bishop blocks some checks from the black rook. Positionally, White tries to hold the position together amid Black’s more active pieces.",
+      "position": "r7/p1R3kB/1R6/1p3Ppk/8/1P5P/P1P1P3/1NB3rK b - - 19 39"
+    },
+    {
+      "moveNumber": 78,
+      "move": "Rd1+",
+      "from": "g1",
+      "to": "d1+",
+      "explanation": "Black checks again to drive the White king away and keep it from helping in the center. Tactically, it may lead to discovered checks if White’s king moves carelessly. Positionally, Black keeps the initiative using the rook.",
+      "position": "r7/p1R3kB/1R6/1p3Ppk/8/1P5P/P1P1P3/1NB3rK w - - 20 40"
+    },
+    {
+      "moveNumber": 79,
+      "move": "Kf2",
+      "from": "g1",
+      "to": "f2",
+      "explanation": "White steps back with the king, trying to stay active enough to aid the pawns. Tactically, it avoids corner entrapment. Positionally, White strives to coordinate the king and bishop to hold off Black’s threats.",
+      "position": "r7/p1R3kB/1R6/1p3Ppk/8/1P5P/P1P1P1K1/1NB3r1 b - - 21 40"
+    },
+    {
+      "moveNumber": 80,
+      "move": "Rd2",
+      "from": "d1+",
+      "to": "d2",
+      "explanation": "Black ignores potential trades and keeps pressing with the rook. Tactically, it hunts for infiltration on the second rank. Positionally, Black’s active rook and king coordinate to restrict White’s movement.",
+      "position": "r7/p1R3kB/1R6/1p3Ppk/8/1P5P/P1PrP1K1/1NBB3r w - - 22 41"
+    },
+    {
+      "moveNumber": 81,
+      "move": "Kg1",
+      "from": "f2",
+      "to": "g1",
+      "explanation": "White toggles the king, hoping for a repetition or a mistake from Black. Tactically, there is little else to do without losing material. Positionally, White remains cramped, seeking a fortress or perpetual check possibility.",
+      "position": "r7/p1R3kB/1R6/1p3Ppk/8/1P5P/P1PrP1K1/1NB3r1 b - - 23 41"
+    },
+    {
+      "moveNumber": 82,
+      "move": "Kf6",
+      "from": "g5",
+      "to": "f6",
+      "explanation": "Black’s king returns, preparing to find a better route to break White’s defense. Tactically, it might shift to e5 or e6 to support pawns. Positionally, it ensures the king and rook remain well-coordinated.",
+      "position": "r7/p1R3kB/1R4k1/1p3Pp1/8/1P5P/P1PrP1K1/1NB3r1 w - - 24 42"
+    },
+    {
+      "moveNumber": 83,
+      "move": "Rb4",
+      "from": "b6",
+      "to": "b4",
+      "explanation": "White repositions the rook, keeping some lateral defense options. Tactically, it eyes the g4 push if possible. Positionally, White tries to hold on, but Black’s advantage is significant.",
+      "position": "r7/p1R3kB/1R4k1/1p3Pp1/1R6/1P5P/P1PrP1K1/1NB3r1 b - - 25 42"
+    },
+    {
+      "moveNumber": 84,
+      "move": "Be6",
+      "from": "f7",
+      "to": "e6",
+      "explanation": "Black centralizes the bishop, controlling critical diagonals. Tactically, it eyes potential discovered checks if White’s rook moves clumsily. Positionally, Black readies final infiltration or pawn breaks to seal the win.",
+      "position": "r7/p1R3k1/1R2b1k1/1p3Pp1/1R6/1P5P/P1PrP1K1/1NB3r1 w - - 26 43"
+    },
+    {
+      "moveNumber": 85,
+      "move": "Ra4",
+      "from": "b4",
+      "to": "a4",
+      "explanation": "White tries shifting the rook to the a-file, hoping to find counterplay on the back rank. Tactically, it may threaten checks behind Black’s king if the bishop moves. Positionally, White remains on the defensive, but seeks any resource.",
+      "position": "r7/p1R3k1/1R2b1k1/1p3Pp1/R7/1P5P/P1PrP1K1/1NB3r1 b - - 27 43"
+    },
+    {
+      "moveNumber": 86,
+      "move": "Re5",
+      "from": "e6",
+      "to": "e5",
+      "explanation": "Black’s bishop moves to e5, further restricting White’s king. Tactically, it eyes the f4-pawn again. Positionally, it coordinates with the rook and king to finalize the net around White’s position.",
+      "position": "r7/p1R3k1/1R4k1/1p3pb1/R7/1P5P/P1PrP1K1/1NB3r1 w - - 28 44"
+    },
+    {
+      "moveNumber": 87,
+      "move": "Re4",
+      "from": "a4",
+      "to": "e4",
+      "explanation": "White centralizes the rook in response, trying to trade. Tactically, it hopes to reduce attacking forces. Positionally, White is desperate to relieve pressure by exchanging pieces.",
+      "position": "r7/p1R3k1/1R4k1/1p3pb1/4R3/1P5P/P1PrP1K1/1NB3r1 b - - 29 44"
+    },
+    {
+      "moveNumber": 88,
+      "move": "Rxf2+",
+      "from": "d2",
+      "to": "f2+",
+      "explanation": "Black sacrifices the rook momentarily to break White’s defense. Tactically, it disrupts White’s king safety entirely. Positionally, it leads to a decisive advantage for Black.",
+      "position": "r7/p1R3k1/1R4k1/1p3pb1/4R3/1P5P/P1PrP1K1/1NB3r1 w - - 30 45"
+    },
+    {
+      "moveNumber": 89,
+      "move": "Kxf2",
+      "from": "g2",
+      "to": "f2",
+      "explanation": "White has to accept the rook, but this exposes the king further. Tactically, White’s position is left with vulnerabilities. Positionally, Black should have decisive follow-ups.",
+      "position": "r7/p1R3k1/1R4k1/1p3pb1/4R3/1P5P/P1PrP1K1/1NB5 b - - 0 45"
+    },
+    {
+      "moveNumber": 90,
+      "move": "Rf1+",
+      "from": "g1",
+      "to": "f1+",
+      "explanation": "Black checks once again, forcing White to move the king. Tactically, it exploits the open lines around White’s monarch. Positionally, White’s king cannot escape further, confirming a winning advantage for Black.",
+      "position": "r7/p1R3k1/1R4k1/1p3pb1/4R3/1P5P/P1PrP1K1/1NB5 w - - 1 46"
+    },
+    {
+      "moveNumber": 91,
+      "move": "Kxf1",
+      "from": "f2",
+      "to": "f1",
+      "explanation": "White recaptures, but the king remains in a precarious spot. Tactically, White is out of better options. Positionally, the end is near with Black’s pieces overwhelming.",
+      "position": "r7/p1R3k1/1R4k1/1p3pb1/4R3/1P5P/P1P1P3/1NB3K1 b - - 0 46"
+    },
+    {
+      "moveNumber": 92,
+      "move": "Bxe4",
+      "from": "e5",
+      "to": "e4",
+      "explanation": "Black recaptures on e4, further increasing material and ensuring White’s king is vulnerable. Tactically, the threat of mate or winning more material looms. Positionally, White’s position collapses quickly.",
+      "position": "r7/p1R3k1/1R4k1/1p3pb1/4b3/1P5P/P1P1P3/1NB3K1 w - - 0 47"
+    },
+    {
+      "moveNumber": 93,
+      "move": "Ke1",
+      "from": "f1",
+      "to": "e1",
+      "explanation": "White’s king steps to e1 to avoid immediate tactics. Tactically, it’s still not secure from Black’s impending threats. Positionally, all of Black’s pieces dominate the board, leaving White nearly helpless.",
+      "position": "r7/p1R3k1/1R4k1/1p3pb1/4b3/1P5P/P1P1P3/1NB1K3 b - - 1 47"
+    },
+    {
+      "moveNumber": 94,
+      "move": "Bd5",
+      "from": "b6",
+      "to": "d5",
+      "explanation": "Black brings the bishop to a central outpost, controlling crucial squares. Tactically, it sets up unstoppable threats. Positionally, Black’s pieces coordinate to finalize the win.",
+      "position": "r7/p1R3k1/1R4k1/1p3pb1/4b3/1P5P/P1P1P3/1NBK4 w - - 2 48"
+    },
+    {
+      "moveNumber": 95,
+      "move": "Kf2",
+      "from": "e1",
+      "to": "f2",
+      "explanation": "White’s king tries to escape the net one last time. Tactically, it changes little in terms of defense. Positionally, White remains down material and in a hopeless position.",
+      "position": "r7/p1R3k1/1R4k1/1p3pb1/4b3/1P5P/P1P1PK2/1NB5 b - - 3 48"
+    },
+    {
+      "moveNumber": 96,
+      "move": "Kf6",
+      "from": "g5",
+      "to": "f6",
+      "explanation": "Black calmly centralizes the king, sealing White’s fate. Tactically, all infiltration squares are covered. Positionally, it’s a matter of time before Black’s final break decides the game.",
+      "position": "r7/p1R3k1/1R3k2/1p3pb1/4b3/1P5P/P1P1PK2/1NB5 w - - 4 49"
+    },
+    {
+      "moveNumber": 97,
+      "move": "Ke3",
+      "from": "f2",
+      "to": "e3",
+      "explanation": "White’s king steps forward, aiming for counter-chances. Tactically, it’s still vulnerable to checks and forks. Positionally, it can’t stop Black’s combined forces.",
+      "position": "r7/p1R3k1/1R3k2/1p3pb1/4b3/1P3K1P/P1P1P3/1NB5 b - - 5 49"
+    },
+    {
+      "moveNumber": 98,
+      "move": "Ke5",
+      "from": "f6",
+      "to": "e5",
+      "explanation": "Black’s king advances, dominating the board. Tactically, White’s last resources are insufficient. Positionally, this cements a winning endgame setup for Black.",
+      "position": "r7/p1R3k1/1R6/1p3pk1/4b3/1P3K1P/P1P1P3/1NB5 w - - 6 50"
+    },
+    {
+      "moveNumber": 99,
+      "move": "Kf2",
+      "from": "e3",
+      "to": "f2",
+      "explanation": "White steps back again, but no adequate defense remains. Tactically, White is out of meaningful checks. Positionally, White can only wait for Black to deliver the final blow.",
+      "position": "r7/p1R3k1/1R6/1p3pk1/4b3/1P5P/P1P1PK2/1NB5 b - - 7 50"
+    },
+    {
+      "moveNumber": 100,
+      "move": "Bd4+",
+      "from": "e5",
+      "to": "d4+",
+      "explanation": "Black checks with the bishop, forcing White’s king further from safety. Tactically, it leaves White near a forced mate or losing more material. Positionally, it’s the finishing touch as Black is up decisive material.",
+      "position": "r7/p1R3k1/1R6/1p3pk1/3bb3/1P5P/P1P1PK2/1NB5 w - - 8 51"
+    },
+    {
+      "moveNumber": 101,
+      "move": "Ke1",
+      "from": "f2",
+      "to": "e1",
+      "explanation": "White steps to e1, but the end is unavoidable. Tactically, White has no good response after Black continues with the final approach. Positionally, Black’s advantage is overwhelming and White resigns.",
+      "position": "r7/p1R3k1/1R6/1p3pk1/3bb3/1P5P/P1P1P3/1NBK4 b - - 9 51"
+    }
+  ],
+  "overview": "In this dynamic encounter featuring a Reversed Grünfeld structure (Zukertort Setup), White (Ding Liren) and Black (Gukesh D) contested central and queenside space early on. Ding aimed for a flexible fianchetto and central control, while Gukesh responded with active counterplay, opening lines on the queenside and maintaining tension in the center. Over time, Black’s precise moves and well-timed transitions into a favorable endgame gave him a decisive edge, culminating in a breakthrough on White’s king position. Ultimately, White could not hold the position, resulting in a 0-1 victory for Gukesh.",
+  "keyMoments": [
+    "1) Black’s early ...c5 and ...d5 effectively challenged White’s center, preventing Ding from easily consolidating his advantage.",
+    "2) The knight maneuvers (Nb5, Nc3, etc.) created tension around d4-c4, but Gukesh’s timely exchanges and bishop deployment stifled White’s pressure.",
+    "3) Black’s queenside expansion with ...b5 and ...a6 opened lines at the right moment, giving Gukesh the initiative.",
+    "4) The transition to the endgame, where Black’s active king and rook created unstoppable threats, sealed White’s fate."
+  ]
+}

@@ -1,11 +1,10 @@
-import { modernPgn } from './modern';
+import { modernPgn } from './test';
 
 export const games = {
-  Modern: modernPgn,
-  // We can add more categories later:
-  // Sicilian: sicilianPgn,
-  // French: frenchPgn,
-  // etc.
-} as const;
+  modern: {
+    name: 'Modern Games',
+    games: [modernPgn]
+  }
+};
 
 export type GameCategory = keyof typeof games; 
