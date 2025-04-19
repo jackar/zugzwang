@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 
 interface EngineEvaluationProps {
   fen: string;
@@ -8,9 +8,7 @@ interface EngineEvaluationProps {
   onToggleAnalysis: () => void;
 }
 
-export default function EngineEvaluation({ fen, isAnalyzing, onToggleAnalysis }: EngineEvaluationProps) {
-  const [error, setError] = useState<string | null>(null);
-  
+export default function EngineEvaluation({ onToggleAnalysis }: EngineEvaluationProps) {
   return (
     <div className="bg-white rounded-lg shadow-md p-4">
       <div className="flex justify-between items-center mb-2">
